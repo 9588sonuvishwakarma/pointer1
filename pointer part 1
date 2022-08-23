@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+
+	int a =90;
+	a++;
+	cout<<a<<endl;
+		int *b = &a;
+	cout<<b<<endl;
+	cout<<*b<<endl;
+
+	int *p = b;
+	cout<<p<<endl;
+	cout<<*p<<endl;
+
+	int j =98;
+	char l = j;
+	cout<<l<<endl;
+
+	int *y = &j;
+	char *g = (char*) y;
+     cout<<"hello"<<endl;
+	cout<<g[0];
+
+     cout<<"hello"<<endl;
+     g[1]=38;
+	cout<<g[1];
+
+     cout<<"hello"<<endl;
+	cout<<g[2];
+
+     cout<<"hello"<<endl;
+	cout<<g[3];
+
+	cout<<"hello"<<endl;
+	cout<<g[4];
+
+	cout<<"hello"<<endl;
+	cout<<g[5];
+
+
+return 0;}
